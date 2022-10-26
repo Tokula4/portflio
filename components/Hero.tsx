@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import { Cursor,  useTypewriter } from 'react-simple-typewriter'
 import Backgroundcircles from './Backgroundcircles';
+import Image from 'next/image'
 
 type Props = {}
 
@@ -24,7 +25,7 @@ function Hero({}:Props) {
   return (
     <div className="flex flex-col items-center justify-center h-screen space-y-8 overflow-hidden text-center" >
    <Backgroundcircles/>
-   <img  className="relative object-cover mx-auto rounded-full w-52 h-52 "
+   <Image className="relative object-cover mx-auto rounded-full w-52 h-52 "
      src="/pic.JPG"  alt="" />
 
      <div  className="z-20" >

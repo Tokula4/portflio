@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-
+import Image from 'next/image'
 type props ={}
 
 function Experiencecard({}:props) {
@@ -34,11 +34,11 @@ function Experiencecard({}:props) {
             <p  className="mt-1 text-2xl font-bold" >At EJ Limited</p>
             <div  className="flex my-2 space-x-2 " >
 
-                <img className="w-10 h-10 rounded-full" src="/next.png" />
+                <Image className="w-10 h-10 rounded-full" src="/next.png" />
 
-                <img className="w-10 h-10 rounded-full" src="/next.png" />
+                <Image className="w-10 h-10 rounded-full" src="/next.png" />
 
-                <img className="w-10 h-10 rounded-full" src="/next.png" />
+                <Image className="w-10 h-10 rounded-full" src="/next.png" />
                 
             </div>
             <p  className="py-5 text-gray-300 uppercase" >  started  work .....    ended...... </p>
