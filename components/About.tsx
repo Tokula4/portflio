@@ -42,9 +42,9 @@ function About({}:props) {
                 Here is a <span className="underline decoration-[#f7ab0a]/50" >Little</span>  Background 
             </h4>
             <p  className="text-sm" >
-            Visit the repository page again; you'll see that, since we pushed it back to GitHub, <br></br>
+            Visit the repository page again; youll see that, since we pushed it back to GitHub, <br></br>
              the README.md file is now in the file list. We can change the text in that file right on GitHub,<br></br>
-              then pull the change back down to our local repository.<br></br> Start by clicking the file name link. That'll give you this page:
+              then pull the change back down to our local repository.<br></br> Start by clicking the file name link. That ll give you this page:
             </p>
         </div>
       
