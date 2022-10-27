@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="bg-[#393939]  text-white snap-y snap-mandatory overflow-scroll z-0 h-screen " >
       <Head>
-        <title>Emmanuel's Portfolio</title>
+        <title>Emmanuels Portfolio</title>
         
       </Head>
       <Header/>
