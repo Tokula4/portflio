@@ -25,7 +25,7 @@ function Hero({}:Props) {
   return (
     <div className="flex flex-col items-center justify-center h-screen space-y-8 overflow-hidden text-center" >
    <Backgroundcircles/>
-   <Image className="relative object-cover mx-auto rounded-full w-52 h-52 "
+   <img className="relative object-cover mx-auto rounded-full w-52 h-52 "
      src="/pic.JPG"  alt="" />
 
      <div  className="z-20" >
